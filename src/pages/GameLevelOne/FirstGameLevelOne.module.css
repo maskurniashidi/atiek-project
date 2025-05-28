@@ -1,0 +1,61 @@
+.gameContainer {
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.question {
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.optionsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.optionCard {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.optionCard img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 3px solid #e0e0e0;
+  transition: border 0.2s ease;
+}
+
+.optionCard p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #444;
+}
+
+.optionCard:hover {
+  transform: scale(1.05);
+}
+
+.optionCard:hover img {
+  border-color: #1890ff;
+}
+
+.feedback {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}

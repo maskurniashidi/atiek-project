@@ -1,0 +1,48 @@
+.gameContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sceneWrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.object {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.object:hover {
+  transform: scale(1.1);
+}
+
+.feedback {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
