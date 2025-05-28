@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "atiek-project-54097",
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
